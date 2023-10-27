@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const ticketNumElement = document.getElementById("ticket-num");
 
         ticketNumElement.textContent = availableTickets;
-        buyButton.disabled = availableTickets === 0;
+    
     };
 
     // Function to simulate a ticket purchase
@@ -111,4 +111,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Fetch and display movie details for the first movie
     fetchMovieDetails(1);
+  
 });
